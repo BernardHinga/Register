@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sign_form {
+    border-radius: 15px;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    background: rgba(10, 10, 10, 0.25);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+#login_form {
+    border-radius: 15px;
+    text-align: center;
+    width: 450px;
+    height: 350px;
+    background: rgba(10, 10, 10, 0.404);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+h2 {
+    margin: 5px 0px 40px;
+    padding: 5px;
+}
+
+label {
+    float: left;
+    margin: 5px 0px 10px;
+}
+
+.input {
+    text-emphasis: none;
+    text-decoration: none;
+    text-align: center;
+    float: inline-end;
+    border: none;
+    border-bottom: 1px solid rgba(3, 247, 255, 0.4);
+    border-radius: 2.5px;
+    margin: 5px 5px 10px;
+    height: 25px;
+    width: 230px;
+    background-color: transparent;
+}
+
+#login_form .input {
+    border-bottom: 1px solid rgba(255, 174, 0, 0.918);
+}
+
+.submit {
+    background: rgba(3, 247, 255, 0.4);
+    color: #fff;
+    font-size: medium;
+    height: 40px;
+    width: 90px;
+    border: 1px solid #fff;
+    border-radius: 10.5px;
+    margin: 23px 0px 10px;
+}
+
+#login_form .submit {
+    background: rgba(255, 174, 0, 0.918);
+}

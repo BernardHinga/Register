@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign-Up page</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body style="background: url(img/mountains.jpg); background-size:cover;">
+    <div id="sign_form">
+        <h2>Sign Up</h2>
+        <form action="assets/signup.inc.php" method="POST">
+            <label for="uno">First Name</label>
+            <input type="text" name="uno" class="input"><br/>
+            <label for="dos">Second Name</label>
+            <input type="text" name="dos" class="input"><br/>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" class="input"><br/>
+            <label for="password">Passsword</label>
+            <input type="password" name="password" class="input"><br/>
+            <label for="password">Repeat Passsword</label>
+            <input type="password" name="r-password" class="input"><br/>
+            <button type="submit" name="submit" class="submit">Sign-Up</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
